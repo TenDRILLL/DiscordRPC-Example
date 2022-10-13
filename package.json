@@ -1,0 +1,25 @@
+{
+  "name": "discordrpc-example",
+  "version": "1.0.0",
+  "description": "DiscordRPC-Example",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc --build && cd dist && node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenDRILLL/DiscordRPC-Example.git"
+  },
+  "author": "Ten#0010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TenDRILLL/DiscordRPC-Example/issues"
+  },
+  "homepage": "https://github.com/TenDRILLL/DiscordRPC-Example#readme",
+  "dependencies": {
+    "@types/node": "^18.8.5",
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.0.3",
+    "readline": "^1.3.0"
+  }
+}
